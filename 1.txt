@@ -1,0 +1,70 @@
+OpenSSH_8.2p1 Ubuntu-4ubuntu0.1, OpenSSL 1.1.1f  31 Mar 2020
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
+debug1: /etc/ssh/ssh_config line 21: Applying options for *
+debug1: Connecting to prac.cs.msu.ru [188.44.42.88] port 22.
+debug1: Connection established.
+debug1: identity file /home/fedorenkoia/.ssh/id_rsa type 0
+debug1: identity file /home/fedorenkoia/.ssh/id_rsa-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_dsa type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_dsa-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ecdsa type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ecdsa-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ecdsa_sk type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ecdsa_sk-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ed25519 type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ed25519-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ed25519_sk type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_ed25519_sk-cert type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_xmss type -1
+debug1: identity file /home/fedorenkoia/.ssh/id_xmss-cert type -1
+debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.1
+debug1: Remote protocol version 2.0, remote software version OpenSSH_7.5 FreeBSD-20170903
+debug1: match: OpenSSH_7.5 FreeBSD-20170903 pat OpenSSH_7.0*,OpenSSH_7.1*,OpenSSH_7.2*,OpenSSH_7.3*,OpenSSH_7.4*,OpenSSH_7.5*,OpenSSH_7.6*,OpenSSH_7.7* compat 0x04000002
+debug1: Authenticating to prac.cs.msu.ru:22 as 's02190230'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:oZKqVTDkn/bSZrNWuKNXZt9AAHJrrCv2RRl88A/9w6A
+debug1: Host 'prac.cs.msu.ru' is known and matches the ECDSA host key.
+debug1: Found key in /home/fedorenkoia/.ssh/known_hosts:1
+debug1: rekey out after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey in after 134217728 blocks
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_rsa RSA SHA256:+BP8jcTI7z7e0Q7JD9oZQCIPO4wFyHiVkr8mu2Cm5f4 agent
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_dsa 
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_ecdsa 
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_ecdsa_sk 
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_ed25519 
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_ed25519_sk 
+debug1: Will attempt key: /home/fedorenkoia/.ssh/id_xmss 
+debug1: SSH2_MSG_EXT_INFO received
+debug1: kex_input_ext_info: server-sig-algs=<ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521>
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,keyboard-interactive
+debug1: Next authentication method: publickey
+debug1: Offering public key: /home/fedorenkoia/.ssh/id_rsa RSA SHA256:+BP8jcTI7z7e0Q7JD9oZQCIPO4wFyHiVkr8mu2Cm5f4 agent
+debug1: Server accepts key: /home/fedorenkoia/.ssh/id_rsa RSA SHA256:+BP8jcTI7z7e0Q7JD9oZQCIPO4wFyHiVkr8mu2Cm5f4 agent
+debug1: Authentication succeeded (publickey).
+Authenticated to prac.cs.msu.ru ([188.44.42.88]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0
+debug1: Sending environment.
+debug1: Sending env LANG = ru_RU.UTF-8
+debug1: Sending command: exit
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2880, received 3092 bytes, in 0.4 seconds
+Bytes per second: sent 8141.5, received 8740.8
+debug1: Exit status 0
