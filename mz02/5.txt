@@ -1,0 +1,296 @@
+ANSWERS
+***Answer 29:
+aplusb.c:1:6: error: return type of 'main' is not 'int' [-Werror=main]
+    1 | void main()
+      |      ^~~~
+aplusb.c: In function 'main':
+aplusb.c:4:1: error: implicit declaration of function 'scanf' [-Werror=implicit-function-declaration]
+    4 | scanf("%d%d", a, &b);
+      | ^~~~~
+aplusb.c:4:1: error: incompatible implicit declaration of built-in function 'scanf' [-Werror]
+aplusb.c:1:1: note: include '<stdio.h>' or provide a declaration of 'scanf'
+  +++ |+#include <stdio.h>
+    1 | void main()
+aplusb.c:4:9: error: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Werror=format=]
+    4 | scanf("%d%d", a, &b);
+      |        ~^     ~
+      |         |     |
+      |         int * int
+aplusb.c:5:3: error: statement with no effect [-Werror=unused-value]
+    5 | c == a + b;
+      | ~~^~~~~~~~
+aplusb.c:6:1: error: implicit declaration of function 'printf' [-Werror=implicit-function-declaration]
+    6 | printf("%d\n", c);
+      | ^~~~~~
+aplusb.c:6:1: error: incompatible implicit declaration of built-in function 'printf' [-Werror]
+aplusb.c:6:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+aplusb.c:4:1: error: 'a' is used uninitialized in this function [-Werror=uninitialized]
+    4 | scanf("%d%d", a, &b);
+      | ^~~~~~~~~~~~~~~~~~~~
+aplusb.c:6:1: error: 'c' is used uninitialized in this function [-Werror=uninitialized]
+    6 | printf("%d\n", c);
+      | ^~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+***Answer 30:
+-rwxr-xr-x  1 s02190230  Domain Admins  7416 20 сент. 14:01 aplusb
+***Answer 31:
+2197646
+***Answer 32:
+./aplusb < 001.dat > 001.res
+***Answer 33:
+2200161
+***Answer 34:
+0m0,000s
+***Answer 35:
+450000000
+***Answer 36:
+    0  6455 53766   0  22  0 13360 6736 select IsJ   -  0:00,02 sshd: s02190270 [priv] (sshd)
+27445  6619  6455   0  20  0 13360 6640 select IJ    -  0:00,64 sshd: s02190270@pts/36 (sshd)
+    0  7145 53766   0  21  0 13360 6736 select IsJ   -  0:00,02 sshd: s02190288 [priv] (sshd)
+27521  7147  7145   0  20  0 15408 8880 select IJ    -  0:01,61 sshd: s02190288@pts/38 (sshd)
+    0  7414 53766   0  21  0 13360 6736 select IsJ   -  0:00,02 sshd: s02180534 [priv] (sshd)
+25517  7416  7414   0  20  0 15408 8956 select IJ    -  0:00,26 sshd: s02180534@pts/41 (sshd)
+    0  8155 53766   0  21  0 13360 6736 select IsJ   -  0:00,02 sshd: s02190237 [priv] (sshd)
+27703  8157  8155   0  20  0 13360 6640 select IJ    -  0:00,52 sshd: s02190237@pts/46 (sshd)
+    0 19200 53766   0  20  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190118 [priv] (sshd)
+27523 19202 19200   0  20  0 13360 6928 select IJ    -  0:00,23 sshd: s02190118@pts/30 (sshd)
+    0 19430 53766   0  22  0 13360 6644 select IsJ   -  0:00,02 sshd: s02190065 [priv] (sshd)
+27435 19440 19430   0  20  0 13360 6644 select IJ    -  0:00,60 sshd: s02190065@pts/32 (sshd)
+    0 19465 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190118 [priv] (sshd)
+27523 19467 19465   0  20  0 13360 6644 select IJ    -  0:00,04 sshd: s02190118@pts/33 (sshd)
+    0 30821 53766   0  21  0 13360 6700 select IsJ   -  0:00,02 sshd: s02190263 [priv] (sshd)
+27506 30823 30821   0  20  0 13360 6620 select IJ    -  0:00,23 sshd: s02190263@pts/3 (sshd)
+    0 30900 53766   0  21  0 13360 6700 select IsJ   -  0:00,02 sshd: s02190266 [priv] (sshd)
+27425 30902 30900   0  20  0 13360 6624 select IJ    -  0:00,53 sshd: s02190266@pts/21 (sshd)
+    0 44363 53766   0  21  0 13360 6700 select IsJ   -  0:00,02 sshd: s02190263 [priv] (sshd)
+27506 44365 44363   0  20  0 13360 6596 select IJ    -  0:00,01 sshd: s02190263@pts/11 (sshd)
+    0 44389 53766   0  21  0 13360 6700 select IsJ   -  0:00,02 sshd: s02190263 [priv] (sshd)
+27506 44391 44389   0  20  0 13360 6616 select IJ    -  0:00,13 sshd: s02190263@pts/16 (sshd)
+    0 44521 53766   0  21  0 13360 6708 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 44663 44521   0  20  0 13360 6624 select IJ    -  0:00,16 sshd: s02190185@pts/47 (sshd)
+    0 53509 53766   0  21  0 13360 6712 select IsJ   -  0:00,03 sshd: s02190167 [priv] (sshd)
+    0 53766     1   0  20  0 12924 5096 select IsJ   -  0:10,52 /usr/sbin/sshd
+27600 54392 53509   0  20  0 13360 6628 select IJ    -  0:00,21 sshd: s02190167@pts/62 (sshd)
+    0 56314 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190302 [priv] (sshd)
+27585 57013 56314   0  20  0 13360 6632 select IJ    -  0:00,01 sshd: s02190302@pts/53 (sshd)
+    0 58618 53766   0  21  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190065 [priv] (sshd)
+27435 58620 58618   0  20  0 13360 6628 select IJ    -  0:00,12 sshd: s02190065@pts/39 (sshd)
+    0 58661 53766   0  20  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190089 [priv] (sshd)
+27469 58670 58661   0  20  0 13360 6608 select IJ    -  0:00,01 sshd: s02190089@pts/27 (sshd)
+    0 58677 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190167 [priv] (sshd)
+27600 58679 58677   0  20  0 13360 6860 select SJ    -  0:00,10 sshd: s02190167@pts/52 (sshd)
+    0 58805 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190223 [priv] (sshd)
+27682 58809 58805   0  20  0 13360 6664 select IJ    -  0:00,04 sshd: s02190223@pts/42 (sshd)
+    0 59106 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190223 [priv] (sshd)
+27682 59115 59106   0  20  0 13360 6608 select IJ    -  0:00,01 sshd: s02190223@pts/65 (sshd)
+    0 59157 53766   0  20  0 13360 6576 select IsJ   -  0:00,02 sshd: s02190188 [priv] (sshd)
+27631 59160 59157   0  20  0 13360 6596 select IJ    -  0:00,01 sshd: s02190188@notty (sshd)
+    0 67479 53766   0  21  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190013 [priv] (sshd)
+27574 67481 67479   0  20  0 13360 6644 select IJ    -  0:00,10 sshd: s02190013@pts/58 (sshd)
+    0 67664 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190049 [priv] (sshd)
+27415 67666 67664   0  20  0 13360 6692 select IJ    -  0:00,23 sshd: s02190049@pts/67 (sshd)
+    0 68396 53766   0  23  0 13360 6768 select IsJ   -  0:00,03 sshd: s02190044 [priv] (sshd)
+27407 68398 68396   0  20  0 13360 6744 select SJ    -  0:00,22 sshd: s02190044@pts/25 (sshd)
+    0 68428 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190187 [priv] (sshd)
+27630 68432 68428   0  20  0 13360 6680 select SJ    -  0:00,14 sshd: s02190187@pts/23 (sshd)
+    0 68580 53766   0  22  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190026 [priv] (sshd)
+27494 68582 68580   0  20  0 13360 6656 select IJ    -  0:00,04 sshd: s02190026@pts/68 (sshd)
+    0 68671 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190230 [priv] (sshd)
+27690 68673 68671   0  20  0 13360 6668 select SJ    -  0:00,14 sshd: s02190230@pts/69 (sshd)
+    0 68871 53766   0  22  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190172 [priv] (sshd)
+27606 68873 68871   0  20  0 13360 6644 select IJ    -  0:00,02 sshd: s02190172@pts/70 (sshd)
+    0 68928 53766   0  22  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 68931 68928   0  20  0 13360 6644 select IJ    -  0:00,04 sshd: s02190185@pts/73 (sshd)
+    0 69042 53766   0  20  0 13360 6660 select IsJ   -  0:00,02 sshd: s02190119 [priv] (sshd)
+27524 69049 69042   0  20  0 13360 6588 select IJ    -  0:00,00 sshd: s02190119@pts/29 (sshd)
+    0 69360 53766   0  22  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 69362 69360   0  20  0 13360 6668 select IJ    -  0:00,06 sshd: s02190185@pts/28 (sshd)
+    0 69365 53766   0  21  0 13360 6744 select IsJ   -  0:00,02 sshd: s02190102 [priv] (sshd)
+27495 69367 69365   0  20  0 15408 8508 select IJ    -  0:00,15 sshd: s02190102@pts/35 (sshd)
+    0 69374 53766   0  21  0 13360 6744 select IsJ   -  0:00,02 sshd: s02190248 [priv] (sshd)
+27717 69376 69374   0  20  0 13360 7076 select IJ    -  0:00,10 sshd: s02190248@pts/63 (sshd)
+    0 69456 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190174 [priv] (sshd)
+27609 69468 69456   0  20  0 13360 6664 select SJ    -  0:00,11 sshd: s02190174@pts/55 (sshd)
+    0 69592 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190188 [priv] (sshd)
+27631 69595 69592   0  20  0 13360 6656 select IJ    -  0:00,02 sshd: s02190188@pts/60 (sshd)
+    0 76720 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190023 [priv] (sshd)
+27700 76722 76720   0  20  0 13360 6632 select IJ    -  0:00,01 sshd: s02190023@pts/37 (sshd)
+    0 76798 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190164 [priv] (sshd)
+27597 76802 76798   0  20  0 13360 6656 select IJ    -  0:00,08 sshd: s02190164@pts/64 (sshd)
+    0 77308 53766   0  20  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190106 [priv] (sshd)
+    0 77310 53766   0  22  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190692 [priv] (sshd)
+29131 77314 77310   0  20  0 15408 8432 select SJ    -  0:00,23 sshd: s02190692@pts/45 (sshd)
+27502 77337 77308   0  20  0 13360 6672 select IJ    -  0:00,28 sshd: s02190106@pts/49 (sshd)
+    0 77526 53766   0  21  0 13360 6576 select IsJ   -  0:00,02 sshd: s02190188 [priv] (sshd)
+27631 77532 77526   0  20  0 13360 6604 select IJ    -  0:00,01 sshd: s02190188@notty (sshd)
+    0 77665 53766   0  21  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190766 [priv] (sshd)
+29351 77667 77665   0  20  0 15408 9112 select SJ    -  0:00,59 sshd: s02190766@pts/20 (sshd)
+    0 77706 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 77710 77706   0  20  0 13360 6656 select IJ    -  0:00,08 sshd: s02190185@pts/26 (sshd)
+    0 78203 53766   0  20  0 13360 6768 select IsJ   -  0:00,02 sshd: s02190089 [priv] (sshd)
+27469 78206 78203   0  20  0 13360 6668 select IJ    -  0:00,05 sshd: s02190089@pts/24 (sshd)
+    0 78279 53766   0  22  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190221 [priv] (sshd)
+27679 78289 78279   0  20  0 13360 6632 select SJ    -  0:00,22 sshd: s02190221@pts/51 (sshd)
+    0 78680 53766   0  22  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 78682 78680   0  20  0 13360 6644 select IJ    -  0:00,02 sshd: s02190185@pts/22 (sshd)
+    0 78686 53766   0  21  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190149 [priv] (sshd)
+27569 78688 78686   0  20  0 13360 6596 select IJ    -  0:00,02 sshd: s02190149@pts/40 (sshd)
+    0 78840 53766   0  21  0 13360 6676 select IsJ   -  0:00,02 sshd: s02190149 [priv] (sshd)
+27569 78842 78840   0  20  0 13360 6628 select IJ    -  0:00,04 sshd: s02190149@pts/31 (sshd)
+    0 86123 53766   0  22  0 13360 6712 select IsJ   -  0:00,02 sshd: s02190049 [priv] (sshd)
+27415 86125 86123   0  20  0 13360 6640 select IJ    -  0:00,26 sshd: s02190049@pts/19 (sshd)
+    0 86476 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190216 [priv] (sshd)
+27674 86480 86476   0  20  0 13360 6640 select SJ    -  0:00,18 sshd: s02190216@pts/12 (sshd)
+    0 86978 53766   0  21  0 13360 6712 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 86984 86978   0  20  0 13360 6608 select IJ    -  0:00,02 sshd: s02190185@pts/44 (sshd)
+    0 88199 53766   0  21  0 13360 6740 select IsJ   -  0:00,02 sshd: s02190174 [priv] (sshd)
+27609 88204 88199   0  20  0 13360 6596 select IJ    -  0:00,01 sshd: s02190174@pts/9 (sshd)
+    0 95825 53766   0  21  0 13360 6544 select IsJ   -  0:00,02 sshd: s02190188 [priv] (sshd)
+27631 95828 95825   0  20  0 13360 6600 select IJ    -  0:00,01 sshd: s02190188@notty (sshd)
+    0 95858 53766   0  22  0 13360 6708 select IsJ   -  0:00,02 sshd: s02190185 [priv] (sshd)
+27625 95860 95858   0  20  0 13360 6620 select IJ    -  0:00,03 sshd: s02190185@pts/50 (sshd)
+    0 96237 53766   0  22  0 13360 6736 select IsJ   -  0:00,02 sshd: s02190017 [priv] (sshd)
+27615 96239 96237   0  20  0 13360 6808 select IJ    -  0:00,28 sshd: s02190017@pts/43 (sshd)
+    0 97330 53766   0  21  0 13360 6708 select IsJ   -  0:00,02 sshd: s02190203 [priv] (sshd)
+27650 97332 97330   0  20  0 13360 6620 select IJ    -  0:00,04 sshd: s02190203@pts/61 (sshd)
+    0 15629  3723   0  47  0  8452 2468 ttyin  I+J   1  0:00,02 zsh
+27425 30903 30902   0  20  0  7988 3584 select Is+J 21  0:00,23 -bash (bash)
+27503 11168 79793   0  20  0  7952    0 wait   IWsJ  4  0:00,00 -bash (bash)
+27503 79794 79793   0  20  0  7952    0 wait   IWsJ  7  0:00,00 -bash (bash)
+27503 11187 79793   0  21  0  7952 3228 select Is+J  5  0:00,14 -bash (bash)
+27503 79803 79793   0  20  0  7952 3092 select Is+J  8  0:00,01 -bash (bash)
+27503 11189 79793   0  20  0  7952    0 wait   IWsJ  6  0:00,00 -bash (bash)
+27625 69363 69362   0  20  0  7988 3572 wait   IsJ  28  0:00,01 -bash (bash)
+27506 44366 44365   0  20  0  7988 3584 wait   IsJ  11  0:00,01 -bash (bash)
+27630 68434 68432   0  20  0  7988 3584 select Ss+J 23  0:00,08 -bash (bash)
+27503 53565 79793   0  20  0  8116 3168 select Is+J 13  0:00,07 -bash (bash)
+27503 53573 79793   0  20  0  7952 3092 select Is+J 14  0:00,03 -bash (bash)
+27503 53594 79793   0  20  0  7952 3092 select Is+J 15  0:00,01 -bash (bash)
+30623 42427 42426   0  20  0  7952    0 wait   IWsJ 17  0:00,00 -/usr/local/bin/bash
+27506 44393 44391   0  20  0  8152 3768 select Is+J 16  0:00,04 -bash (bash)
+30623 42445 42444   0  20  0  7952    0 wait   IWsJ 18  0:00,00 -bash (bash)
+27521  7148  7147   0  20  0  8152 3768 select Is+J 38  0:00,17 -bash (bash)
+27506 30824 30823   0  20  0  7988 3596 select Is+J  3  0:00,10 -bash (bash)
+29131 77315 77314   0  28  0  7988 3432 wait   Is+J 45  0:00,01 -bash (bash)
+29131 77322 77321   0  21  0 14360 7748 ttyin  Ss+J 48  0:06,27 -zsh (zsh)
+27625 86986 86984   0  20  0  7988 3572 select Is+J 44  0:00,02 -bash (bash)
+27606 68875 68873   0  20  0  7988 3552 select Is+J 70  0:00,01 -bash (bash)
+27682 59116 59115   0  20  0  7988 3568 select Is+J 65  0:00,01 -bash (bash)
+27469 78207 78206   0  20  0  7988 3588 wait   IsJ  24  0:00,01 -bash (bash)
+27625 78683 78682   0  20  0  7988 3576 select Is+J 22  0:00,02 -bash (bash)
+27495 69368 69367   0  20  0  8152 3776 select Is+J 35  0:00,06 -bash (bash)
+27523 19203 19202   0  20  0  7988 3560 select Is+J 30  0:00,04 -bash (bash)
+27435 19441 19440   0  20  0  8152 3756 select Is+J 32  0:00,21 -bash (bash)
+27435 96849 19441   0  20  0  6680 2228 -      TJ   32  0:00,00 grep sh
+27523 19469 19467   0  20  0  7988 3552 select Is+J 33  0:00,04 -bash (bash)
+27502 77338 77337   0  20  0  8152 3760 select Is+J 49  0:00,06 -bash (bash)
+27445  6676  6619   0  20  0  7988 3556 wait   IsJ  36  0:00,10 -bash (bash)
+27679 78290 78289   0  20  0  7988 3556 select Ss+J 51  0:00,06 -bash (bash)
+27569 78843 78842   0  20  0  7988 3544 wait   IsJ  31  0:00,01 -bash (bash)
+27674 86483 86480   0  20  0  7988 3552 select Ss+J 12  0:00,06 -bash (bash)
+25517  7417  7416   0  20  0  8152 3752 select Is+J 41  0:00,07 -bash (bash)
+29131 77563 77321   0  20  0 12312 6768 pause  IsJ  59  0:01,15 -zsh (zsh)
+27625 95861 95860   0  20  0  7988 3568 select Is+J 50  0:00,02 -bash (bash)
+27703  8158  8157   0  36  0  7988 3572 select Is+J 46  0:00,12 -bash (bash)
+27625 44664 44663   0  20  0  7988 3568 wait   IsJ  47  0:00,01 -bash (bash)
+27569 78689 78688   0  20  0  7988 3544 select Is+J 40  0:00,02 -bash (bash)
+27585 57342 57013   0  20  0  7988 3544 wait   IsJ  53  0:00,01 -bash (bash)
+27650 97333 97332   0  40  0  8152 3760 select Is+J 61  0:00,03 -bash (bash)
+27574 67482 67481   0  20  0  7988 3544 wait   IsJ  58  0:00,01 -bash (bash)
+27625 68933 68931   0  27  0  7988 3576 select Is+J 73  0:00,04 -bash (bash)
+27675 36976 36975   0  20  0  8116 3576 wait   IsJ  56  0:00,02 -bash (bash)
+27675 36981 36975   0  20  0  7952 3432 wait   IsJ  57  0:00,01 -bash (bash)
+27615 96240 96239   0  20  0  7988 3556 select Is+J 43  0:00,18 -bash (bash)
+27415 67667 67666   0  20  0  7988 3564 select Is+J 67  0:00,10 -bash (bash)
+27600 54823 54392   0  20  0  7988 3580 select Is+J 62  0:00,16 -bash (bash)
+27717 69392 69376   0  21  0  8152 3788 select Is+J 63  0:00,07 -bash (bash)
+27609 88206 88204   0  20  0  7988 3580 select Is+J  9  0:00,01 -bash (bash)
+27415 86127 86125   0  20  0  7988 3560 select Is+J 19  0:00,06 -bash (bash)
+29351 77668 77667   0  20  0 10200 4572 select Ss+J 20  0:00,16 -bash (bash)
+27407 68399 68398   0  20  0  7988 3580 wait   SsJ  25  0:00,09 -bash (bash)
+27700 76724 76722   0  20  0  7988 3544 wait   IsJ  37  0:00,01 -bash (bash)
+27700 76926 76724   0  52  0  7088 2552 wait   I+J  37  0:00,01 /bin/sh /usr/bin/man cat
+27597 76803 76802   0  20  0  8152 3756 select Is+J 64  0:00,07 -bash (bash)
+27494 68583 68582   0  20  0  7988 3544 select Is+J 68  0:00,03 -bash (bash)
+27625 77711 77710   0  20  0  7988 3572 wait   IsJ  26  0:00,01 -bash (bash)
+27690 59557 68674   0  20  0  6680 2228 piperd S+J  69  0:00,00 grep sh
+27690 68674 68673   0  20  0  7988 3568 wait   SsJ  69  0:00,08 -bash (bash)
+27524 69050 69049   0  21  0  7988 3540 select Is+J 29  0:00,01 -bash (bash)
+27609 69469 69468   0  20  0  8152 3768 select Ss+J 55  0:00,05 -bash (bash)
+27631 69596 69595   0  20  0  7988 3588 wait   IsJ  60  0:00,01 -bash (bash)
+27435 58621 58620   0  20  0  7988 3588 wait   IsJ  39  0:00,05 -bash (bash)
+27469 58672 58670   0  20  0  7988 3588 select Is+J 27  0:00,01 -bash (bash)
+27600 58680 58679   0  20  0  7988 3568 select Ss+J 52  0:00,03 -bash (bash)
+27682 58810 58809   0  20  0  7988 3576 wait   IsJ  42  0:00,01 -bash (bash)
+Все действующие процессы с подробной информацией о них, содержащие в своем имени подстроку sh
+***Answer 37:
+unlimited
+Устанавливает ограничение на core file size равным 0
+***Answer 38:
+There are 26 section headers, starting at offset 0x1538:
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .interp           PROGBITS         0000000000400200  00000200
+       0000000000000015  0000000000000000   A       0     0     1
+  [ 2] .note.tag         NOTE             0000000000400218  00000218
+       0000000000000030  0000000000000000   A       0     0     4
+  [ 3] .hash             HASH             0000000000400248  00000248
+       0000000000000030  0000000000000004   A       4     0     8
+  [ 4] .dynsym           DYNSYM           0000000000400278  00000278
+       00000000000000a8  0000000000000018   A       5     1     8
+  [ 5] .dynstr           STRTAB           0000000000400320  00000320
+       000000000000003d  0000000000000000   A       0     0     1
+  [ 6] .gnu.version      SUNW_versym      000000000040035e  0000035e
+       000000000000000e  0000000000000002   A       4     0     2
+  [ 7] .gnu.version_r    SUNW_verneed     0000000000400370  00000370
+       0000000000000020  0000000000000000   A       5     1     8
+  [ 8] .rela.plt         RELA             0000000000400390  00000390
+       0000000000000048  0000000000000018  AI       4    19     8
+  [ 9] .init             PROGBITS         00000000004003d8  000003d8
+       0000000000000013  0000000000000000  AX       0     0     4
+  [10] .plt              PROGBITS         00000000004003f0  000003f0
+       0000000000000040  0000000000000010  AX       0     0     16
+  [11] .text             PROGBITS         0000000000400430  00000430
+       0000000000000374  0000000000000000  AX       0     0     16
+  [12] .fini             PROGBITS         00000000004007a4  000007a4
+       000000000000000e  0000000000000000  AX       0     0     4
+  [13] .rodata           PROGBITS         00000000004007b2  000007b2
+       0000000000000001  0000000000000001 AMS       0     0     1
+  [14] .eh_frame_hdr     PROGBITS         00000000004007b4  000007b4
+       000000000000001c  0000000000000000   A       0     0     4
+  [15] .eh_frame         PROGBITS         00000000004007d0  000007d0
+       0000000000000064  0000000000000000   A       0     0     8
+  [16] .ctors            PROGBITS         0000000000600838  00000838
+       0000000000000010  0000000000000000  WA       0     0     8
+  [17] .dtors            PROGBITS         0000000000600848  00000848
+       0000000000000010  0000000000000000  WA       0     0     8
+  [18] .dynamic          DYNAMIC          0000000000600858  00000858
+       0000000000000160  0000000000000010  WA       5     0     8
+  [19] .got.plt          PROGBITS         00000000006009b8  000009b8
+       0000000000000030  0000000000000008  WA       0     0     8
+  [20] .data             PROGBITS         00000000006009e8  000009e8
+       0000000000000010  0000000000000000  WA       0     0     8
+  [21] .bss              NOBITS           00000000006009f8  000009f8
+       0000000000000018  0000000000000000  WA       0     0     8
+  [22] .comment          PROGBITS         0000000000000000  000009f8
+       000000000000021d  0000000000000001  MS       0     0     1
+  [23] .symtab           SYMTAB           0000000000000000  00000c18
+       0000000000000648  0000000000000018          24    52     8
+  [24] .strtab           STRTAB           0000000000000000  00001260
+       0000000000000205  0000000000000000           0     0     1
+  [25] .shstrtab         STRTAB           0000000000000000  00001465
+       00000000000000cf  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+***Answer 39:
+ls -lS /etc | grep .conf | tail -n 5
+***Answer 40:
+cat /usr/share/dict/words | grep -v a | grep -v i | grep -v u | grep -v e | grep -v o | wc -w
+
+(stdin)= 3045022068ee63db5ecd142c63c975ccab3678c941fb734669ec12282187485e6d7872ed022100f6038b3bac84ce9de236d2ef6017d0621d265293f62ed80e4a06483317ea3695
