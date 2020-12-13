@@ -1,0 +1,36 @@
+ANSWERS
+***Answer 17:
+Было напечатано
+/home/s02190230
+Это путь домашнего каталог
+***Answer 18:
+/usr/include
+***Answer 19:
+13:15
+755
+***Answer 20:
+38
+1 /home/s02190230 2 /home/s02190230 3
+***Answer 21:
+/etc/crontab
+***Answer 22:
+total 4
+-rwxr-xr--  1 s02190230  Domain Admins  1090 20 сент. 13:39 hosts
+-rwxr-xr--  1 s02190230  Domain Admins  2515 20 сент. 13:38 passwd
+***Answer 23:
+total 4
+-rwxr-xr--  1 s02190230  Domain Admins  1090 20 сент. 13:39 hosts2
+-rwxr-xr--  1 s02190230  Domain Admins  2515 20 сент. 13:38 passwd
+***Answer 24:
+UID=27690
+USER=s02190230
+***Answer 25:
+/usr/local/bin/bash
+***Answer 26:
+/etc:/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin:/home/s02190230/bin:/usr/include
+***Answer 27:
+/usr/bin
+***Answer 28:
+1
+0
+(stdin)= 304402203f019559b20ad684f3dbfcf3b22035c0fa5411dbc160986de797588bd1bc79f3022067730d20c84497cd5e45f8243183cf1621c808da4d3d42f1e01b28332a50f51e
